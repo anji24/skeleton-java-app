@@ -49,6 +49,7 @@ public class WebServer {
     return System.getenv("PORT") != null ? Integer.valueOf(System.getenv("PORT")) : 5000;
   }
 
+  // Main method
   public static void main(String[] args) throws Exception {
     new WebServer();
   }
